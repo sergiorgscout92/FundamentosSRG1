@@ -9,7 +9,7 @@ body{
 header{
 	width:100%;
 	height:50px;
-	background:skyblue;
+	background:blue;
 	color: #fff;
 	position:fixed;
 	top:0;
@@ -19,21 +19,21 @@ h1{
 	float:left;
 }
 #banner{
-	margin-top:50px;
+	margin-top:40px;
 	position:relative;
 }
 #banner img{
 	top:10px;
-	width:60%;
+	width:100%;
 	height:20%;
 	position:relative;
 }
 #banner.contenedor{
-	position:relative;
+	position:absolute;
 	top:50%;
 	left:100%;
-	color:yellow;
-	transform:translateX(1px)translateY(100px);
+	color:darkblue;
+	transform:translateX(10px)translateY(10px);
 
 }
 .menu a{
@@ -55,3 +55,16 @@ h1{
 #servicios{
 	padding:50px;
 }
+#servicios.contenedor{
+	display:flex;
+	justify-content: center;
+	flex: ;
+}
+#servicios article{
+	margin: 16px;
+}
+#servicios img{
+	width: 10%;
+	max-width: 30%;
+}
+
